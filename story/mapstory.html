@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- source: https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-html -->
+<!-- source: https://developers.google.com/maps/documentation/javascript/examples/icon-complex -->
 <html>
   <head>
     <title>Mapstory</title>
@@ -25,6 +25,7 @@
 // The following example creates complex markers to indicate beaches near
 // Sydney, NSW, Australia. Note that the anchor is set to (0,32) to correspond
 // to the base of the flagpole.
+      
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 10,
@@ -79,6 +80,7 @@ function setMarkers(map) {
       zIndex: beach[3],
     });
   }
+}
     </script>
   </head>
   <body>
