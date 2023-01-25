@@ -29,7 +29,7 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 10,
-    center: { lat: -33.9, lng: 151.2 },
+    center: { lat: 52.4, lng: -120.1 },
   });
 
   setMarkers(map);
@@ -38,11 +38,11 @@ function initMap() {
 // Data for the markers consisting of a name, a LatLng and a zIndex for the
 // order in which these markers should display on top of each other.
 const beaches = [
-  ["Calgary", 51.042264, -113.746844, 4],
-  ["Banff", 51.180211, -115.317889, 5],
+  ["Calgary", 51.042264, -113.746844, 1],
+  ["Banff", 51.180211, -115.317889, 2],
   ["Jasper", 52.889856, -117.800799, 3],
-  ["Vancouver", 49.297379, -123.678484, 2],
-  ["Victoria", 48.444697, -123.162127, 1],
+  ["Whistler", 50.119576, -123.462165, 4],
+  ["Vancouver", 49.297379, -123.678484, 5],
 ];
 
 function setMarkers(map) {
